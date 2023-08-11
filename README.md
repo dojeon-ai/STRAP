@@ -58,3 +58,15 @@ If you want to train the model from your own, use the `main.py` script
 ```
 python main.py
 ```
+
+
+### Citation
+
+```
+@article{lee2023strap,
+  title={STRAP: A Spatio-Temporal Framework for Real Estate Apprisal},
+  author={Hojoon Lee and Hawon Jeong and Byungkun Lee and Kyungyup Daniel Lee and Jaegul Choo},
+  journal={CIKM},
+  year={2023}
+}
+```
