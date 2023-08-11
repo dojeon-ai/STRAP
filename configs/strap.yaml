@@ -1,0 +1,21 @@
+project_name: 'strap_cikm2023'
+group_name: 'test'
+exp_name: 'test'
+device_id: 0
+debug: True
+use_pretrained: False
+pretrained_model_path: ''
+
+# configs to be shared
+device: 'cuda:0'
+seed: 1
+batch_size: 256
+max_seq_length: 30
+
+defaults:
+- _self_
+- dataloader: seq_graph_loader
+- model: strap
+- trainer: seq_graph_trainer
+
+

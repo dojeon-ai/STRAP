@@ -1,0 +1,14 @@
+# defaults
+type: 'sequential_graph'
+# data_path: '/home/hojoonlee/data/preprocessed'
+data_path: 'data/preprocessed'
+max_seq_length: None
+batch_size: None
+device: None
+seed: None
+num_workers: 4   # [eval] 4: 15min, 8: 11min, 16: 7min, 32: 8min
+pin_memory: True  # 
+tvt_split: 0.9 # train, validation split
+
+max_resident_neighbors: 5
+distance_threshold: 1

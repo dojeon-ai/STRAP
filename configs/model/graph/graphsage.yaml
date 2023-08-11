@@ -1,0 +1,8 @@
+type: 'graphsage'
+batch_size: None
+in_dim: None   # output_dim of the backbone
+hid_dim: 256
+
+use_resident: True
+use_poi: True
+use_trp: True

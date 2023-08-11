@@ -1,0 +1,23 @@
+# defaults
+type: 'sequential_graph'
+batch_size: None
+num_epochs: 10
+
+# logging
+log_every: 1000 # step
+eval_every: 1   # epoch
+save_every: 5   # epoch
+
+clip_grad_norm: 5.0  
+
+optimizer:
+    type: 'adamw'
+    lr: 0.001
+    weight_decay: 0.001
+    betas: [0.9, 0.999]
+
+loss_type: 'mae'
+cold_lmbda: 1.0
+max_seq_length: None
+history_bin_interval: 5
+warm_start: 5

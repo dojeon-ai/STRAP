@@ -1,0 +1,4 @@
+defaults:
+- backbone: gru
+- graph: graphsage
+- predictor: state_linear

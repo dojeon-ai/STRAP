@@ -1,0 +1,5 @@
+type: 'gru'
+hid_dim: 256
+batch_size: None
+max_seq_length: None
+mask_input: True
