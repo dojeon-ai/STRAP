@@ -1,4 +1,4 @@
-# STRAP: A Spatio-Temporal Framework for Real Estate Apprisal
+# STRAP: Spatio-Temporal Framework for Real Estate Apprisal
 
 This repository contains a PyTorch implementation of the paper
 
