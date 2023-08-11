@@ -6,6 +6,12 @@ STRAP: A Spatio-Temporal Framework for Real Estate Apprisal., Lee et al., CIKM 2
 
 ## Requirements
 
+### Download dataset
+
+Download the real estate dataset from the below link and unzip below /data
+
+[real eastate data (~100mb)](https://davian-lab.quickconnect.to/d/s/ul30whhASbL0tHtSFvf4iBK2encGJqIi/DMv5Og3WHFkaCbF34GmmK4hNwwJVF7xr-dLZg5si5qQo)
+
 ### Install Anaconda environment
 
 We assume you have Linux device to run these scripts.
