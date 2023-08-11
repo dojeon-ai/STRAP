@@ -68,7 +68,7 @@ python main.py
 ```
 
 
-### Citation
+## Citation
 
 ```
 @article{lee2023strap,
