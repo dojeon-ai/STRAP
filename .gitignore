@@ -109,9 +109,6 @@ fabric.properties
 .idea/**
 
 # Data
-./data/raw/
-./data/preprocessed/
-
 
 *.pickle
 # *.csv
@@ -122,12 +119,10 @@ __pycache__
 *.ipynb_checkpoints
 *.npy
 *.out
-**/origin/**
-**/preprocessed/**
-**/raw/**
 *.csv
+**/origin/**
+**/raw/**
 
 cora/
 Cora/
-dataset/
 img/
