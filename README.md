@@ -8,7 +8,7 @@ STRAP: A Spatio-Temporal Framework for Real Estate Apprisal., Lee et al., CIKM 2
 
 ### Download dataset
 
-Download the real estate dataset from the below link and unzip below /data
+Download the real estate dataset from the below link and unzip below /data/preprocessed/
 
 [real eastate data (~100mb)](https://davian-lab.quickconnect.to/d/s/ul30whhASbL0tHtSFvf4iBK2encGJqIi/DMv5Og3WHFkaCbF34GmmK4hNwwJVF7xr-dLZg5si5qQo)
 
