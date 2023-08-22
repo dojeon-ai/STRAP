@@ -1,6 +1,6 @@
 # A Spatio-Temporal Framework for Real Estate Appraisal
 
-This repository is a official PyTorch implementation of the paper
+This repository is an official PyTorch implementation of the paper
 
 STRAP: A Spatio-Temporal Framework for Real Estate Apprisal., Lee et al., CIKM 2023 (Short).
 
@@ -10,14 +10,14 @@ STRAP: A Spatio-Temporal Framework for Real Estate Apprisal., Lee et al., CIKM 2
 
 Download the real estate dataset from the below link and unzip below /data/preprocessed/
 
-[real eastate data (~100mb)](https://davian-lab.quickconnect.to/d/s/ul30whhASbL0tHtSFvf4iBK2encGJqIi/DMv5Og3WHFkaCbF34GmmK4hNwwJVF7xr-dLZg5si5qQo)
+[real estate data (~100mb)](https://davian-lab.quickconnect.to/d/s/ul30whhASbL0tHtSFvf4iBK2encGJqIi/DMv5Og3WHFkaCbF34GmmK4hNwwJVF7xr-dLZg5si5qQo)
 
 PWD: 1234
 
 ### Install Anaconda environment
 
-We assume you have Linux device to run these scripts.
-First, install anaconda environment to train deep learning model.
+We assume you have a Linux device to run these scripts.
+First, install an anaconda environment to train the deep learning model.
 
 ```
 wget https://repo.anaconda.com/archive/Anaconda3-2020.07-Linux-x86_64.sh
@@ -34,12 +34,12 @@ Then, the simplest way to install all required dependencies is to create an anac
 conda env create -f requirements.yaml
 ```
 
-After the instalation ends you can activate your environment with
+After the installation ends you can activate your environment with
 ```
 conda activate strap
 ```
 
-Then furhter install few more dependencies
+Then further install few more dependencies
 ```
 pip install hydra-core --upgrade
 pip install opencv-python
@@ -53,7 +53,7 @@ https://wandb.ai/home
 
 ### Check data preprocessing
 
-If you want to see data pre-processing procedure, check the below jupyter notebook scripts.
+If you want to see the data pre-processing procedure, check the below jupyter notebook scripts.
 
 ```
 ./data/dataset_summary.ipynb
@@ -61,7 +61,7 @@ If you want to see data pre-processing procedure, check the below jupyter notebo
 
 ### Train model
 
-If you want to train the model from your own, use the `main.py` script
+If you want to train the model on your own, use the `main.py` script
 
 ```
 python main.py
@@ -72,7 +72,7 @@ python main.py
 
 ```
 @article{lee2023strap,
-  title={STRAP: A Spatio-Temporal Framework for Real Estate Apprisal},
+  title={ST-RAP: A Spatio-Temporal Framework for Real Estate Apprisal},
   author={Hojoon Lee and Hawon Jeong and Byungkun Lee and Kyungyup Daniel Lee and Jaegul Choo},
   journal={CIKM},
   year={2023}
